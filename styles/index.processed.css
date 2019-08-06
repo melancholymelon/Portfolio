@@ -1,0 +1,232 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  background: black;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+img {
+  max-width: 80%;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none !important;
+  font: inherit !important;
+  color: inherit !important;
+}
+
+h3 {
+  text-decoration: none !important;
+  font: inherit !important;
+  color: inherit !important;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+p {
+  margin: 0px;
+}
+
+.bignav {
+  z-index: 10;
+  color: Salmon;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+nav {
+  padding-top: 36px;
+}
+
+.name {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-size: 2em;
+  margin-right: auto;
+  margin-left: 24px;
+}
+
+.about {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+.work {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+
+.contact {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-left: 20px;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+.intro {
+  z-index: 10;
+  font-size: 2.25vw;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 48px;
+  padding-left: 20px;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.current {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 24px;
+  padding-left: 20px;
+  max-width: 900px;
+  width: 40%;
+  font-size: 1.5em;
+  margin-right: auto;
+}
+
+.previous {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 24px;
+  max-width: 900px;
+  width: 40%;
+  font-size: 1.5em;
+  margin-left: auto;
+}
+
+.column3 {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 24px;
+  padding-left: 20px;
+  max-width: 900px;
+  width: 25%;
+  font-size: 1.5em;
+}
+
+footer {
+  padding-top: 128px !important;
+}
+
+.sectionheader {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 4vw;
+  color: white;
+  padding-top: 24px;
+  padding-left: 20px;
+  max-width: 100%;
+  margin-right: auto;
+}
+
+.joblink {
+  margin-top: 32px;
+}
+
+.footerlink {
+  padding-top: 6px;
+  font-size: 5vw;
+}
+
+.fade-in-o {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+.fade-in-o2 {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.fade-in-o3 {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hover:hover, .hover:focus, .hover:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.hovercolor {
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+}
+
+.hovercolor:hover, .hovercolor:focus, .hover:active {
+  color: #FE642E !important;
+}
