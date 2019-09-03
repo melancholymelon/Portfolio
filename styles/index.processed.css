@@ -1,0 +1,364 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  background: black;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: row wrap;
+  width: 90%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.workcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+  margin-top: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  font: inherit !important;
+  color: inherit !important;
+}
+
+h3 {
+  text-decoration: none !important;
+  font: inherit !important;
+  color: inherit !important;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+ul, li {
+  list-style: none;
+  padding-left: none;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0px;
+}
+
+nav {
+  padding-top: 36px;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.name {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-size: 2em;
+  margin-right: auto;
+  margin-left: 24px;
+}
+
+.about {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+.work {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+
+.contact {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-left: 20px;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+.intro {
+  z-index: 10;
+  font-size: 2.25vw;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 48px;
+  padding-left: 20px;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.current {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 24px;
+  padding-left: 20px;
+  max-width: 900px;
+  width: 40%;
+  font-size: 1.5em;
+  margin-right: auto;
+}
+
+.previous {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 24px;
+  max-width: 900px;
+  width: 40%;
+  font-size: 1.5em;
+  margin-left: auto;
+}
+
+.column3 {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 24px;
+  padding-left: 20px;
+  max-width: 900px;
+  width: 25%;
+  font-size: 1.5em;
+}
+
+.workbox {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 1000px;
+  background-color: white;
+  flex: 1;
+  font-size: 1.5em;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.hiddencolumn {
+  flex: 1;
+}
+
+.workimage {
+  width: 90%;
+  padding: 15px;
+}
+
+.gif {
+  width: 90%;
+  max-height: 480px;
+}
+
+.summarybox {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-size: 2em;
+  margin-left: 24px;
+  max-width: 1000px;
+  flex: 2;
+  height: 100%;
+  align-self: center;
+}
+
+.workdesc {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+  background: #FE642E;
+  padding: 24px;
+}
+
+footer {
+  padding-top: 128px !important;
+}
+
+.sectionheader {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 1em;
+  padding-top: 2em;
+  margin: 0;
+  width: 100%;
+}
+
+.lreheader {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 6vw;
+  font-weight: bold;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 3em;
+  padding-top: 2em;
+  margin: 0;
+  width: 100%;
+}
+
+.sectiondescription {
+  z-index: 10;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3vw;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  text-align: start;
+}
+
+.fullcontainer {
+  height: 70vh;
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picturecontainer {
+  margin: 0 !important;
+  padding: 0;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.extraspace {
+  padding-top: 128px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.companyopacity {
+  opacity: .25;
+}
+
+.joblink {
+  margin-top: 32px;
+}
+
+.footerlink {
+  padding-top: 6px;
+  font-size: 5vw;
+}
+
+.fade-in-o {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+.fade-in-o2 {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.fade-in-o3 {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hover:hover, .hover:focus, .hover:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.hovercolor {
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+}
+
+.hovercolor:hover, .hovercolor:focus, .hovercolor:active {
+  color: #FE642E !important;
+}
