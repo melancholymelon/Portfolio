@@ -1,0 +1,31 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  background: black; }
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: row wrap;
+  width: 90%;
+  justify-content: space-between;
+  align-items: baseline; }
+
+.workcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+  margin-top: 2em; }
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  font-weight: 500; }
