@@ -260,7 +260,7 @@ body {
 }
 
 .companyimage {
-  width: 2rem;
+  width: 35vw;
   margin: auto;
 }
 
@@ -414,7 +414,6 @@ p .aboutdesc {
   text-align: left;
   padding: 1rem;
   font-size: 1.5em;
-  margin: auto;
   font-family: 'Work Sans', sans-serif;
 }
 
