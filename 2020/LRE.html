@@ -6,7 +6,7 @@
   <title>Ethan Derikito | Mechanical Engineer</title>
   
   <!--  Styles  -->
-  <link rel="stylesheet" href="styles/index.processed.css">
+  <link rel="stylesheet" href="styles/index.css">
   <link href="https://fonts.googleapis.com/css?family=Overpass|Work+Sans:&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -33,7 +33,6 @@
         <h1 class = "lreheader">Liquid<br>Cooled.</h1>
         <h1 class = "lreheader">Liquid<br>Fueled.</h1>
       </div>
-      <a class="arrow arrow-down" title="Next" href="#bot"></a>
     </div>
     <section class = "colcontainer secondarycolor">
       <section class = "container padtop">
@@ -42,7 +41,8 @@
           <h1>Engine Design</h1>
         </div>
       </section>
-      <div class = "workitem">
+      <div>
+       <div class = "workitem">
         <div class="left">
           <a target href="LRE.html" title = "Feed System">
            <img src = "images/Nozzle.gif" alt="Feed System" class = "fill">
@@ -51,20 +51,26 @@
         <div class="right">
           <p>Beginning in the fall of 2018, my friend, Jackson Stearns, and I began the development of a kerosene, liquid-oxygen rocket engine. After over 10 iterations, the final engine design was chosen to be a 3D printed inconel engine, which uses the kerosene fuel as a coolant for the combustion chamber.</p>
         </div>
+       </div>
       </div>
-      <div class = "workitem" style="align-items: center;">
+      <div>
+       <div class = "workitem" style="align-items: center;">
         <div class="left">
-          <img src = "images/RegenEngineRender.png" alt="Regen Engine" class="enginerender">
+          <img src = "images/rocket.JPG" alt="Regen Engine" class="enginerender">
         </div>
         <div class="right">
           <p>
-            The engine has printed-in cooling channels in which flow the kerosene fuel for the rocket. The kerosene recieves heat from engine combustion, cooling down the combustion chamber while also improving efficiency by increasing the heat of the oncoming fuel.
+            The engine has printed-in cooling channels in which flow the kerosene fuel for the rocket. 
+            The kerosene recieves heat from engine combustion, cooling down the combustion chamber while also improving efficiency by increasing the heat of the incoming fuel.
+            To mitigate pressure losses and variation in the engine manifold, the manifold features a tapering area to maintain constant pressure around all of the cooling channels.
           </p> 
           <br>
           <p>
-            The engine is printed in two half sections out of Inconel 625. These sections are connected through a vacuum oven braze process that will serve to diffusion braze the chamber and nozzle halves, while also heat-treating the entire engine to achieve a desired strength.
+            The engine is to be DMLS printed out of Inconel 718, used for its strength in elevated temperature environments, highly corrosive environments, and its superior strength.
+            The inconel engine will be heat treated improve the engine's strength.
           </p>
         </div>
+       </div>
       </div>
       <section class = "container padtop">
         <div class = "workintro" style="text-align: center;">
@@ -72,7 +78,8 @@
           <h1>Feed System Design</h1>
         </div>
       </section>
-      <div class = "workitem" style="align-items: center;">
+      <div>
+        <div class = "workitem" style="align-items: center;">
         <div class="left">
           <img src = "images/P&ID.png" alt="P&ID" class = "fill">
         </div>
@@ -81,11 +88,13 @@
             After a few years of development, my senior design capstone team was formed to create the fluid feed system for the rocket engine, to be incorporated into a flight vehicle currently being produced by the Aerospace Club at Northeastern. The fluid system consists of two custom made aluminum 6061-T6 flight tanks, solenoid valves, flow piping, and pyrotechnic valves.</p>
           <br>
           <p>
-            I served as the project lead for the group, directing meetings, setting design tasks, and pushing objectives forward. I laid out the pressure and instrumentation diagram for the system as seen on the right. I also worked with the Northeastern's Environmental Health and Safety Department to design and plan cryogenic flow tests that will occur this Spring. 
+            I served as the project lead for the group, setting design tasks and being a critical member of every design decision. I created the pressure and instrumentation diagram for the system as seen on the right. I also worked with the Northeastern's Environmental Health and Safety Department to design and plan cryogenic flow tests and hydrostatic proof tests that are ongoing. 
           </p>
         </div>
+        </div>
       </div>
-      <div class = "workitem" style="align-items: center;">
+      <div>
+        <div class = "workitem" style="align-items: center;">
         <div class="left">
           <img src = "images/LabeledAssembly.png" alt="Tank Cap" class = "fill">
         </div>
@@ -101,22 +110,37 @@
             efficient combustion.
           </p> 
         </div>
+        </div>
       </div>
       <div class="small">
         <div class = "smallworkdesc">
-          <img src = "images/tankcap.jpg" alt="Tank Cap" class="picdesc">
-          <p class="caption">Aluminum Flight Tank Cap</p>
+          <img src = "images/tankwelded.jpeg" alt="Tank Cap" class="picdesc">
+          <p class="caption">Aluminum Flight Tank Welded</p>
         </div>
         <div class = "smallworkdesc">
           <img src = "images/PartialAssembly.jpg" alt="Partial Assembly" class = "picdesc">
           <p class="caption">Partial Structural Assembly</p>
         </div>
         <div class = "smallworkdesc">
+          <img src = "images/systembuildup.jpeg" alt="Control Box" class = "picdesc">
+          <p class="caption">Full Structural Buildup</p>
+        </div>
+      </div>
+      <div class="small" style="margin-top: 2.5rem;">
+        <div class = "smallworkdesc">
+          <img src = "images/waterflow.jpeg" alt="Tank Cap" class="picdesc">
+          <p class="caption">Waterflow Testing of SLA Engine</p>
+        </div>
+        <div class = "smallworkdesc">
+          <img src = "images/hydrostat.jpeg" alt="Partial Assembly" class = "picdesc">
+          <p class="caption">Hydrostatic Proof Test</p>
+        </div>
+        <div class = "smallworkdesc">
           <img src = "images/Control Box.png" alt="Control Box" class = "picdesc">
           <p class="caption">Arduino Based Test Stand Controller</p>
         </div>
         <div class = "smallworkitem">
-          <h1>Here are some in-progress components of the feed system. The system will be finalized early this spring and will undergo extensive flow and pressure testing.</h1>
+          <h1>Here are some in-progress components of the feed system as well as some tests we have performed. The system will be finalized early this spring and will undergo extensive flow and pressure testing.</h1>
         </div>
       </div>
       <footer class = "container secondarycolor">
